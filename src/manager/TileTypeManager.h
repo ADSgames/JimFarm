@@ -14,7 +14,7 @@
 #include <string>
 
 #include "TileType.h"
-#include "UI_Controller.h"
+#include "../UI_Controller.h"
 
 class TileTypeManager {
   public:

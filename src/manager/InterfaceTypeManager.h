@@ -13,7 +13,7 @@
 #include <vector>
 #include <string>
 
-#include "UI_Controller.h"
+#include "../UI_Controller.h"
 
 class InterfaceTypeManager {
   public:

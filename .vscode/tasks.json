@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build and Run",
+        "type": "shell",
+        "command": "make -j8 && cd ./build && JimFarm",
+        "windows": {
+          "command": "make -j8 && cd ./build && JimFarm.exe"
+        },
+        "problemMatcher": [
+          "$gcc"
+        ]
+      },
+      {
+        "label": "Build",
+        "type": "shell",
+        "command": "make -j8",
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Run",
+        "type": "shell",
+        "command": "cd ./build && JimFarm",
+        "windows": {
+          "command": "cd ./build && JimFarm.exe"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
